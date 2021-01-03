@@ -34,6 +34,7 @@ body {
     padding-top: 90px;
     position: fixed;
     top: 0;
+
 }    
   
 .main {
@@ -77,4 +78,17 @@ body {
     background:#333;
     color:#fff;
   
+}
+
+
+@media screen and (max-width:680px){
+
+	#maincontent{
+		width: auto;
+		float: none;
+	}
+	#sidebar{
+		width: auto;
+		float: none;
+	}
 }
